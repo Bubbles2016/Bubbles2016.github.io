@@ -3,8 +3,8 @@ html, body {
 }
 
 .header {
-  background-color: white; 
-  height: 110px; 
+  background-color: white;
+  height: 110px;
   width: auto;
   margin: 0 auto;
 }
@@ -69,7 +69,7 @@ html, body {
   z-index: 6;
   position: relative;
   top:60px;
-  margin:0 80px;
+  margin:0 90px;
   /*color: teal;*/
 }
 
@@ -415,7 +415,7 @@ html, body {
 .teeth_whitening {
   margin-top: -85px;
   height: 100px;
-  width: 100px; 
+  width: 100px;
   display: flex;
 }
 
@@ -426,7 +426,7 @@ html, body {
 .invisible_braces {
   margin-top: -85px;
   height: 100px;
-  width: 100px; 
+  width: 100px;
   display: flex;
 }
 
@@ -450,7 +450,7 @@ html, body {
   float: right;
 }
 
-.w3-display-container:hover 
+.w3-display-container:hover
 .w3-btn-floating {
   visibility: visible;
   text-decoration: none;
@@ -553,7 +553,7 @@ html, body {
 .copyright {
   /*min-width: 1000px;*/
   background-color: teal;
-}  
+}
 
 .copyright p{
   color: white;
