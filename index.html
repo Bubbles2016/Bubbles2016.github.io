@@ -1,10 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>GitHub Pages Test</title>
-</head>
-<body>
-  <h1>Hello Hassouna:)!</h1>
-</body>
-</html>
+<html>
+	<head>
+		<title> AKL dental clinic| Home</title>
+		<script src="https://use.fontawesome.com/d7f4ff4868.js"></script>
+		<link rel="stylesheet" href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+		<!--<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"> -->
+		<link href='https://fonts.googleapis.com/css?family=Raleway:400, 600' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
+  		<link rel='stylesheet' href='css/Akl_dental.css' type='text/css' />	
+  		<link rel='stylesheet' href='css/animate.css' type='text/css' />
+  		<style type="text/css">
+  			.dental {
+  				-webkit-animation-duration: 5s;
+  			}
+
+  			.teeth_whitening {
+  				-webkit-animation-duration: 5s;
+  			}
+
+			.invisible_braces {
+  				-webkit-animation-duration: 5s;
+  			}
+  			.clinic_name {
+  				font-family: 'Signika', sans-serif; font-size: 22px; 
+  				color: teal;
+  				-webkit-animation-duration: 5s;
+  			}
+  		</style>
+	</head>
+
+	<body>
+		<script src="js/dropbtn.js">
+		</script>
+		<!--Add a slider-->
+		<div class="w3-content w3-display-container container dentistslider">
+
+			<div class="navbar-nav">
+			  <ul class="nav">
+				<a href="index.html"><li>HOME</li></a>
+				<a href="why_choose_us.html"><li>WHY CHOOSE US</li></a>
+				<a href="dentists.html"><li>DENTISTS</li></a>
+				<!--<a href="treatments.html"><li>TREAMTMENTS</li></a>-->
+				<div class="dropdown">
+					<button type="button" onclick="myFunction()" class="dropbtn">GALLERY</button>
+					<div id="myDropdown" class="dropdown-content">
+						<a href="surgery.html">Surgery</a>
+						<a href="cosmetics.html">Cosmetic</a>
+					</div>		
+				</div>	
+				<a href="testimonials.html"><li>TESTIMONIALS</li></a>
+				<a href="contact_us.html"><li>CONTACT US</li></a>
+			  </ul>	
+			</div>
+
+  			<img class="mySlides" src="img/image1.jpg" style="width:100%">
+  			<img class="mySlides" src="img/image2.jpg" style="width:100%">
+  			<img class="mySlides" src="img/image3.jpg" style="width:100%">
+			<a class="w3-btn-floating w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
+			<a class="w3-btn-floating w3-display-right" onclick="plusDivs(+1)">&#10095;</a>
+		</div>
+		<script src="js/slider.js">
+		</script>
+		<br>
+		<hr/>
+		<p class="clinic_name animated bounceInLeft">AKL Dental Clinic</p>
+
+		<div class="main">
+			<!--<h1>We Take Care Of Your Smile</h1>-->
+			<!--Add a row with 3 columns-->
+			<div class="row">
+  				<div class="col-md-4">
+  					<img class="dental animated bounceInLeft" src="img/dental_implant.jpg" />
+            		<a class="dental__teeth_link" href="cosmetics.html"><p>Dental Implant</p></a>
+  				</div>
+  				<div class="col-md-4">
+  					<img class="teeth_whitening animated bounceInLeft" src="img/teethwhitening_icon.jpg" />
+            		<a class="dental__teeth_link" href="cosmetics.html"><p>Teeth Whitening</p></a>
+  				</div>
+  				<div class="col-md-4">
+  					<img class="invisible_braces animated bounceInLeft" src="img/invisible_braces.jpg" />
+            		<a class="dental__teeth_link" href="surgery.html"><p>Invisible Braces</p></a>
+  				</div>
+			</div>
+		</div>	
+		<!--Add a horizental line-->
+		<hr/>
+
+		<div class="main2">
+			<h3>We stand out for being the leaders in dentistry</h3>
+			<br>
+			<h2>Meet Our Dentists</h2>
+			<p>Our specialized team of highly experienced dentists in Lebanon, collaborate to provide 
+you with the best outcome in esthetic dentistry, oral surgery and dental implants.</p>
+		</div>	
+
+		<div class="row2">
+  			<div class="col-md-4">
+  				<h4>Dentist name 1</h4>
+  				<img class="dentistphoto1" src="img/dentist1.jpg" />
+  				<p>Dentist 1 earned his degree in Medical Dentistry in 1975 from Saint Joseph University, Lebanon. He pushed…</p>
+  			</div>
+  			<div class="col-md-4">
+  				<h4>Dentist name 2</h4>
+  				<img class="dentistphoto2" src="img/dentist2.jpg" />
+  				<p>Dentist 2 earned his degree in Medical Dentistry in 1975 from Saint Joseph University, Lebanon. He pushed…</p>
+  			</div>
+  			<div class="col-md-4">
+  				<h4>Dentist name 3</h4>
+  				<img class="dentistphoto3" src="img/dentist3.jpg" />
+  				<p>Dentist 3 earned his degree in Medical Dentistry in 1975 from Saint Joseph University, Lebanon. He pushed…</p>
+  			</div>
+		</div>
+		<a class="meet" href="dentists.html">Meet them all</a>
+		<hr/>
+		<div class="footer">
+			<div class="row2">
+				<div class="col-md-4">
+					<h3>Location</h3>
+					<p id="area">Verdun</p>
+					<p>Beirut, Lebanon</p>
+				</div>
+				<div class="col-md-4">
+					<h3>Follow us</h3>
+					<a href="https://www.instagram.com/"><i class="fa fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+					<a href="https://www.facebook.com/"><i class="fa fa fa-facebook fa-3x" aria-hidden="true"></i></a>
+					<a href="https://www.twitter.com/"><i class="fa fa fa-twitter fa-3x" aria-hidden="true"></i></a>
+				</div>
+				<div class="col-md-4">
+					<h3>CONTACT</h3>
+					<p id="email">Email: contact@akldentalclinic.com</p>
+					<p id="tel">Tel. 01 999 999</p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<p>Copyright Dental Clinic ©2017</p>
+		</div>	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	</body>	
+</html>	

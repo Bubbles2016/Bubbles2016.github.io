@@ -1,0 +1,555 @@
+html, body {
+  margin-left: 10px;
+}
+
+.header {
+  background-color: white; 
+  height: 110px; 
+  width: auto;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 80px;
+  width:  100px;
+  /*margin-left: 100px;*/
+  vertical-align: middle;
+}
+
+.fa-angle-right {
+  margin-left: -120px;
+}
+
+.fa {
+  color: #3f3f3f;
+  position: relative;
+  left: 125px;
+  margin-right: 10px;
+}
+.fa:active {
+  top:2px;
+}
+
+.fbicon {
+  height: 40px;
+  width:  70px;
+  position: relative;
+  left: 600px;
+}
+
+.fbicon:active {
+  top: 2px;
+}
+.header h1 {
+  display: inline;
+  font-size: 40px;
+  color: teal;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin-top: 140px;
+}
+
+
+.navbar-nav {
+  display: flex;
+  flex-wrap: wrap;
+  /*min-width: 1000px;*/
+  /*min-height: 5000px;*/
+  /*background-color: teal;*/
+  border-radius: 5px;
+  z-index: 6;
+  position: relative;
+  top:60px;
+  margin:0 80px;
+  /*color: teal;*/
+}
+
+.dentistslider {
+  margin:0 30;
+}
+
+.nav {
+  margin-top: -70px;
+  margin-left: -215px;
+  padding: 20px 0;
+}
+
+.nav a {
+  text-decoration: none;
+  /*color: teal;*/
+}
+
+.nav li {
+  margin: 10px;
+  color: teal;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  display: inline;
+}
+
+.nav li:hover {
+  background-color: transparent;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  color: teal;
+  padding: 4px 15px;
+  text-decoration: none;
+  transition: box-shadow 0.25s;
+}
+
+/*.nav_top:hover {
+  background: #008B8B;
+}*/
+
+.dropbtn {
+    background-color: transparent;
+    border: none;
+    color: teal;
+    padding: 16px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.dropbtn:hover {
+  background-color: transparent;
+  /*border: solid transparent;*/
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  /*color: teal;*/
+  /*padding: 4px 15px;*/
+  text-decoration: none;
+  transition: box-shadow 0.25s;
+}
+
+/*.dropbtn:hover, .dropbtn:focus {
+    background-color: teal;
+}*/
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+.slider {
+  height: 400px;
+  width: 100px;
+}
+
+.dental__teeth_link:hover {
+  text-decoration: none;
+}
+.main {
+
+  margin-top:500px;
+}
+
+.main h1 {
+  text-align: center;
+  color: teal;
+}
+
+.main .row {
+  position: relative;
+  left: 100px;
+  text-align: left;
+}
+
+.main_why_choose_us {
+  height: 450px;
+  width: 960px;
+}
+
+.main_why_choose_us h2 {
+  font-family: inherit;
+  color: teal;
+  text-align: center;
+}
+
+.main_why_choose_us hr {
+  margin-left: 50px;
+}
+
+.main_why_choose_us p {
+  margin-left: 50px;
+  font-family: inherit;
+  text-align: justify;
+}
+.main_dentists {
+  height: 1050px;
+  width: 960px;
+}
+
+.main_dentists h5 {
+  color: teal;
+}
+
+.main_dentists p {
+  color: teal;
+  text-align: justify;
+  font-size: 16px;
+  font-weight: normal;
+}
+.main_cosmetic {
+  height: 1050px;
+  width: 100%;
+}
+
+.main_cosmetic h5 {
+  color: teal;
+  font-size: 20px;
+}
+
+.main_surgery {
+  height: 1250px;
+  width: 100%;
+}
+
+.main_surgery h5 {
+  font-size: 20px;
+  color: teal;
+}
+
+.cosmetic_text_abovepic {
+  width: 500px;
+  font-family: helvetica;
+}
+
+.row10 {
+  height: 500px;
+}
+
+.row12, .row13, .row14 {
+  height: 400px;
+}
+
+.row7 h5, .row8 h5, .row9 h5 {
+  color: teal;
+}
+.background {
+  margin-top: 22px;
+  height: 250px;
+  width: 100%;
+  background-color: teal;
+}
+.background h4 {
+  padding-top: 30px;
+  padding-left: 200px;
+  color: white;
+  font-size: 20px;
+}
+.background_surgery {
+  margin-top: 25px;
+  height: 250px;
+  width: 1213px;
+  background-color: teal;
+}
+
+.background_surgery h4 {
+  padding-top: 30px;
+  padding-left: 200px;
+  color: white;
+  font-size: 20px;
+}
+.background h2 {
+  margin-left: 100px;
+  font-size: 30px;
+  color: white;
+  text-decoration: center;
+  padding-top: 10px;
+  padding-left: 100px;
+}
+
+.background_surgery h3{
+  padding-left: 200px;
+  color: white;
+}
+
+.surgery_text_behindpic {
+  text-align: justify;
+  font-family: Helvetica;
+  font-size: 16px;
+}
+
+.main_testimonials {
+  height: 1050px;
+  width: 960px;
+}
+
+.main_contact_us {
+  height: 900px;
+  width: 960px;
+}
+
+.main_contact_us h4 {
+  text-align: left;
+  color: teal;
+}
+.main_contact_us h5 {
+  text-align: center;
+  color: teal;
+}
+
+#contact_us_name_label {
+  margin-left: 400px;
+  color: teal;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 19px;
+}
+
+#nameTextbox {
+  margin-left: 150px;
+  width: 600px;
+}
+
+#contact_us_email_label {
+  margin-left: 400px;
+  color: teal;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 19px;
+}
+
+#emailTextbox {
+  margin-left: 150px;
+  width: 600px;
+}
+
+#contact_us_phone_label {
+  margin-left: 400px;
+  color: teal;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 19px;
+}
+
+#phoneTextbox {
+  margin-left: 150px;
+  width: 600px;
+}
+
+#contact_us_message_label {
+  margin-left: 400px;
+  color: teal;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 19px;
+}
+
+#messageAreabox {
+  margin-left: 150px;
+  width: 600px;
+}
+#contact_us_sendbutton {
+  margin-left: 400px;
+}
+#map {
+  margin-left: 150px;
+  width: 65%;
+  height: 300px;
+}
+.main_gallery {
+  height: 450px;
+  width: 960px;
+}
+
+.main_testimonials {
+  height: 600px;
+  width: 960px;
+}
+
+.main_testimonials p {
+  text-align: justify;
+}
+
+/*.main_treatments {
+  height: 450px;
+  width: 960px;
+}*/
+
+.dental {
+  margin-top: -85px;
+  height: 100px;
+  width: 100px;
+  /*margin-left: 50px;*/
+  display: flex;
+}
+
+.dental:hover {
+  padding-left: 10px;
+}
+
+.teeth_whitening {
+  margin-top: -85px;
+  height: 100px;
+  width: 100px; 
+  display: flex;
+}
+
+.teeth_whitening:hover {
+  padding-left: 10px;
+}
+
+.invisible_braces {
+  margin-top: -85px;
+  height: 100px;
+  width: 100px; 
+  display: flex;
+}
+
+.invisible_braces:hover {
+  padding-left: 10px;
+}
+.row p {
+  font-family: serif;
+  color: teal;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.w3-btn-floating {
+  position: relative;
+  top: -200px;
+  visibility: hidden;
+}
+
+.w3-display-right {
+  float: right;
+}
+
+.w3-display-container:hover 
+.w3-btn-floating {
+  visibility: visible;
+  text-decoration: none;
+  color: white;
+}
+/*.w3-animate-fading{-webkit-animation:fading 10s infinite;animation:fading 10s infinite}*/
+
+/*hr {
+  border: 1px solid green;
+}*/
+
+.main2 h3 {
+  font-family: serif;
+  color: teal;
+  text-align: center;
+}
+
+.main2 h2 {
+  color: teal;
+}
+
+.dentistphoto1, .dentistphoto2, .dentistphoto3 {
+  height: 250px;
+  width: 250px;
+}
+
+.testimonial1, .testimonial2, .testimonial3 {
+  border-radius: 25px;
+  height: 125px;
+  width: 175px;
+}
+
+.row2 h4 {
+  color: teal;
+}
+
+.row3 {
+  width: 750px;
+}
+
+.row3 h3 {
+  text-align: left;
+}
+
+.meet {
+  font-size:16px;
+  font-weight: 200;
+  background: teal;
+  padding: 8px;
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+}
+.meet:hover {
+  text-decoration: none;
+  color: white;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+  transition: box-shadow 0.25s;
+  padding: 6px 25px;
+  border-radius: 4px;
+}
+#area {
+  margin-left: 30px;
+}
+
+#tel {
+  margin-left: 30px;
+}
+
+#email {
+  margin-left: -40px;
+}
+
+.footer {
+  background-color: teal;
+  height: 250px;
+}
+
+.footer h3 {
+  color: white;
+  padding: 20px 20px 4px 100px;
+  font-family: inherit;
+  font-size: 40px;
+}
+
+.footer p {
+  color: white;
+  padding: 0px 20px 0px 100px;
+  font-family: Caecilia;
+  font-size: 22px;
+}
+.mySlides {
+  height: 500px;
+  width: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.copyright {
+  /*min-width: 1000px;*/
+  background-color: teal;
+}  
+
+.copyright p{
+  color: white;
+  text-align: center;
+}

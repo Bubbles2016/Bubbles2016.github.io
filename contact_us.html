@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> AKL Dental clinic</title>
+		<script src="https://use.fontawesome.com/d7f4ff4868.js"></script>
+		<link rel="stylesheet" href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+		<!--<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"> -->
+		<link href='https://fonts.googleapis.com/css?family=Raleway:400, 600' rel='stylesheet' type='text/css'>
+  		<link rel='stylesheet' href='css/Akl_dental.css' type='text/css' />	
+  		<link rel='stylesheet' href='css/animate.css' type='text/css' />
+
+	</head>
+
+	<body>
+	  <script src="js/dropbtn.js">
+	  </script>
+		
+	  <div class="w3-content w3-display-container container dentistslider">
+		<div class="navbar-nav">
+			  <ul class="nav">
+				<a href="index.html"><li>HOME</li></a>
+				<a href="why_choose_us.html"><li>WHY CHOOSE US</li></a>
+				<a href="dentists.html"><li>DENTISTS</li></a>
+				<!--<a href="treatments.html"><li>TREAMTMENTS</li></a>-->
+				<div class="dropdown">
+					<button type="button" onclick="myFunction()" class="dropbtn">GALLERY</button>
+					<div id="myDropdown" class="dropdown-content">
+						<a href="surgery.html">Surgery</a>
+						<a href="cosmetics.html">Cosmetic</a>
+					</div>		
+				</div>	
+				<a href="testimonials.html"><li>TESTIMONIALS</li></a>
+				<a href="contact_us.html"><li>CONTACT US</li></a>
+			  </ul>	
+		</div>	 
+	   </div>	
+	   <br>
+	   <hr/>
+		<div class="main_contact_us" style="margin-left: 200px;">
+			<!--<h3>Contact Us</h3>-->
+			
+			<!--<h5>NAME</h5>-->
+			<form>
+      			<fieldset>
+        			<!--<legend>Contact us form</legend>-->
+        			<p>
+          			<label id="contact_us_name_label">N A M E</label>
+          			<br>
+          			<input type = "text"
+                 		id = "nameTextbox"
+                 		 />
+        			</p>
+        			<p>
+          				<label id="contact_us_email_label">E M A I L</label>
+          				<br>
+          				<input type = "text"
+                 		id = "emailTextbox"
+                 		/>
+        			</p>
+        			<p>
+          				<label id="contact_us_phone_label">P H O N E</label>
+          				<br>
+          				<input type = "text"
+                 		id = "phoneTextbox"
+                 		/>
+        			</p>
+        			<p>
+          			<label id="contact_us_message_label">M E S S A G E</label>
+          			<br>
+          			<textarea id="messageAreabox"
+                  		rows = "3"
+                  		cols = "80"></textarea>
+        			</p>
+      			</fieldset>
+      			<button id="contact_us_sendbutton" type="button" class="btn btn-default btn-lg">Send</button>
+    		</form>
+    		<br>
+			<div id="map"></div>
+			
+			<script src="js/contact_us_map.js">
+			</script>
+
+    		<script async defer
+    		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyWquiIuUX5GxDpc2wZ8jtglJE4JPPsCY&callback=initMap">
+    			</script>
+
+			<div class="row3" style="margin-left: 140px;">
+				<div class="col-md-4">
+					<h4>Reach us</h4>
+					<p>Floor number</p>
+					<p>Name of the building</p>
+					<p>street name</p>
+					<p>Verdun, Beirut, Lebanon</p>
+				</div>
+				<div class="col-md-4">
+					<h4>Call us</h4>
+					<p>Tel +961 1 888 888</p>  						
+					<p>Mob +961 3 888 888</p>
+					<a href="x@dentalclinic.com">Email: info@akldentalclinic.com</a>
+				</div>
+				<div class="col-md-4">
+					<h4>Working hours</h4>
+					<p>Monday to Friday:</p>
+					<p>9am to 6pm</p>
+					<p>Saturday:</p>
+					<p>9am to 1pm</p>
+				</div>
+			</div>
+		</div>	
+
+
+
+		<div class="footer">
+			<div class="row2">
+				<div class="col-md-4">
+					<h3>Location</h3>
+					<p id="area">Verdun</p>
+					<p>Beirut, Lebanon</p>
+				</div>
+				<div class="col-md-4">
+					<h3>Follow us</h3>
+					<a href="https://www.instagram.com/"><i class="fa fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+					<a href="https://www.facebook.com/"><i class="fa fa fa-facebook fa-3x" aria-hidden="true"></i></a>
+					<a href="https://www.twitter.com/"><i class="fa fa fa-twitter fa-3x" aria-hidden="true"></i></a>
+				</div>
+				<div class="col-md-4">
+					<h3>CONTACT</h3>
+					<p id="email">Email: contact@akldentalclinic.com</p>
+					<p id="tel">Tel. 01 999 999</p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<p>Copyright Dental Clinic ©2017</p>
+		</div>	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	</body>	
+</html>	
